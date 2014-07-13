@@ -1,7 +1,7 @@
 package genetic
 
 import (
-	rnd "github.com/handcraftsman/Random"
+	rnd "github.com/wwitzel3/Random"
 	"math/rand"
 	"runtime"
 	s "sort"

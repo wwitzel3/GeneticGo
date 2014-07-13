@@ -2,7 +2,7 @@ package main
 
 import (
 	"bytes"
-	. "github.com/handcraftsman/Interpreter"
+	. "github.com/wwitzel3/Interpreter"
 )
 
 type program struct {

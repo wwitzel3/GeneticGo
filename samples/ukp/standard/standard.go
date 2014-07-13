@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/handcraftsman/File"
-	genetic "github.com/handcraftsman/GeneticGo"
+	"github.com/wwitzel3/File"
+	genetic "github.com/wwitzel3/GeneticGo"
 	"strconv"
 	"strings"
 	"time"

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	. "github.com/handcraftsman/Interpreter"
+	. "github.com/wwitzel3/Interpreter"
 )
 
 type DistanceArg struct {

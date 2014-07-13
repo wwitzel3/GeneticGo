@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	genetic "github.com/handcraftsman/GeneticGo"
-	. "github.com/handcraftsman/Interpreter"
+	genetic "github.com/wwitzel3/GeneticGo"
+	. "github.com/wwitzel3/Interpreter"
 	"image"
 	"image/color"
 	"image/png"
@@ -47,8 +47,8 @@ func main() {
 	solver.MaxSecondsToRunWithoutImprovement = 3
 	solver.MaxRoundsWithoutImprovement = 3
 	solver.PrintDiagnosticInfo = true
-	solver.NumberOfConcurrentEvolvers = 1// 3
-//	solver.MaxProcs = 12
+	solver.NumberOfConcurrentEvolvers = 1 // 3
+	//	solver.MaxProcs = 12
 
 	var best = solver.GetBestUsingHillClimbing(calc, disp, geneSet, maxBeeActions, 4, maxFitness)
 

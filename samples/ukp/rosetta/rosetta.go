@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	genetic "github.com/handcraftsman/GeneticGo"
+	genetic "github.com/wwitzel3/GeneticGo"
 	"math"
 	"strings"
 	"time"

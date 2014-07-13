@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	genetic "github.com/handcraftsman/GeneticGo"
-	. "github.com/handcraftsman/Interpreter"
+	genetic "github.com/wwitzel3/GeneticGo"
+	. "github.com/wwitzel3/Interpreter"
 	"time"
 )
 
